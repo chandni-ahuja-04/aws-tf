@@ -1,4 +1,4 @@
-AWS 3-Tier Web Application using Terraform
+**AWS 3-Tier Web Application using Terraform**
 
 This project demonstrates how to deploy a production-like 3-tier web application architecture on AWS using Terraform. It includes networking, compute, and database layers along with proper security and routing configurations.
 
