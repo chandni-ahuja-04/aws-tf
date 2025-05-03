@@ -27,10 +27,16 @@ Security:
 Project Structure:
 
 provider.tf      # AWS provider and backend configuration
+
 vpc.tf           # VPC, subnets, IGW, NAT Gateway, route tables
+
 sg.tf            # Security groups for each tier
+
 ec2_fe.tf        # Frontend EC2 instance configuration
+
 ec2_be.tf        # Backend EC2 instance configuration (Node.js app)
+
 rds.tf           # RDS MySQL instance configuration
+
 var.tf           # Input variables
 
