@@ -43,12 +43,18 @@ var.tf            - Input variables
 
 Deployment Steps:
 
+
 Initialize Terraform - terraform init
+
 Review the execution plan - terraform plan
+
 Apply the configuration - terraform apply
+
 Destroy the infrastructure (when no longer needed) - terraform destroy
 
+
 ✅ Prerequisites
+
 Terraform installed
 
 AWS CLI configured (aws configure)
@@ -56,6 +62,7 @@ AWS CLI configured (aws configure)
 AWS account with required permissions (EC2, VPC, RDS, IAM)
 
 📦 Features
+
 Fully functional 3-tier architecture
 
 Proper isolation with public/private subnets
